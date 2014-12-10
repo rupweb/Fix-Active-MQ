@@ -1,0 +1,95 @@
+20141210-19:24:37.554 : Created session
+20141210-19:24:37.814 : Connecting to 65.51.93.159 on port 2193
+20141210-19:24:37.962 : Connection succeeded
+20141210-19:24:38.002 : Session reset: ResetOnLogon
+20141210-19:24:38.037 : Session reset: ResetSeqNumFlag
+20141210-19:24:38.037 : Initiated logon request
+20141210-19:24:38.249 : Received logon
+20141210-19:25:45.553 : Initiated logout request
+20141210-19:25:45.743 : Received logout response
+20141210-19:25:45.746 : Session FIX.4.3:demo417_om->GTXDEMO disconnecting: Received logout response
+20141210-19:31:17.467 : Created session
+20141210-19:31:17.657 : Connecting to 65.51.93.159 on port 2193
+20141210-19:31:17.804 : Connection succeeded
+20141210-19:31:17.854 : Session reset: ResetOnLogon
+20141210-19:31:17.885 : Session reset: ResetSeqNumFlag
+20141210-19:31:17.889 : Initiated logon request
+20141210-19:31:18.110 : Received logon
+20141210-19:35:18.904 : Initiated logout request
+20141210-19:35:19.091 : Received logout response
+20141210-19:35:19.091 : Session FIX.4.3:demo417_om->GTXDEMO disconnecting: Received logout response
+20141210-19:40:21.544 : Created session
+20141210-19:40:21.792 : Connecting to 65.51.93.159 on port 2193
+20141210-19:40:21.929 : Connection succeeded
+20141210-19:40:21.993 : Session reset: ResetOnLogon
+20141210-19:40:22.028 : Session reset: ResetSeqNumFlag
+20141210-19:40:22.033 : Initiated logon request
+20141210-19:40:22.253 : Received logon
+20141210-19:43:12.772 : Session FIX.4.3:demo417_om->GTXDEMO disconnecting: Timed out waiting for heartbeat
+20141210-19:43:22.023 : Connecting to 65.51.93.159 on port 2193
+20141210-19:43:22.161 : Connection succeeded
+20141210-19:43:22.163 : Session reset: ResetOnLogon
+20141210-19:43:22.166 : Session reset: ResetSeqNumFlag
+20141210-19:43:22.168 : Initiated logon request
+20141210-19:43:22.328 : Received logon
+20141210-19:43:35.546 : Message 3 Rejected: Value is incorrect (out of range) for this tag (Field=452)
+20141210-19:43:35.566 : Message 4 Rejected: Invalid tag number (Field=1056)
+20141210-19:44:10.880 : Message 5 Rejected: Value is incorrect (out of range) for this tag (Field=452)
+20141210-19:44:10.997 : Message 6 Rejected: Invalid tag number (Field=1056)
+20141210-19:44:35.000 : Sent test request TEST
+20141210-19:46:25.125 : Initiated logout request
+20141210-19:46:25.312 : Received logout response
+20141210-19:46:25.312 : Session FIX.4.3:demo417_om->GTXDEMO disconnecting: Received logout response
+20141210-19:49:52.974 : Created session
+20141210-19:49:53.162 : Connecting to 65.51.93.159 on port 2193
+20141210-19:49:53.323 : Connection succeeded
+20141210-19:49:53.385 : Session reset: ResetOnLogon
+20141210-19:49:53.416 : Session reset: ResetSeqNumFlag
+20141210-19:49:53.420 : Initiated logon request
+20141210-19:49:53.648 : Received logon
+20141210-19:50:17.921 : Initiated logout request
+20141210-19:50:18.114 : Received logout response
+20141210-19:50:18.114 : Session FIX.4.3:demo417_om->GTXDEMO disconnecting: Received logout response
+20141210-19:50:43.495 : Created session
+20141210-19:50:43.683 : Connecting to 65.51.93.159 on port 2193
+20141210-19:50:43.803 : Connection succeeded
+20141210-19:50:43.893 : Session reset: ResetOnLogon
+20141210-19:50:43.930 : Session reset: ResetSeqNumFlag
+20141210-19:50:43.935 : Initiated logon request
+20141210-19:50:44.145 : Received logon
+20141210-19:50:49.563 : Message 3 Rejected: Value is incorrect (out of range) for this tag (Field=452)
+20141210-19:50:49.690 : Message 4 Rejected: Invalid tag number (Field=1056)
+20141210-19:51:11.694 : Initiated logout request
+20141210-19:51:11.857 : Received logout response
+20141210-19:51:11.857 : Session FIX.4.3:demo417_om->GTXDEMO disconnecting: Received logout response
+20141210-20:04:56.642 : Created session
+20141210-20:04:56.886 : Connecting to 65.51.93.159 on port 2193
+20141210-20:04:57.020 : Connection succeeded
+20141210-20:04:57.075 : Session reset: ResetOnLogon
+20141210-20:04:57.108 : Session reset: ResetSeqNumFlag
+20141210-20:04:57.112 : Initiated logon request
+20141210-20:04:57.330 : Received logon
+20141210-20:05:02.815 : Message 4 Rejected: Invalid tag number (Field=1057)
+20141210-20:11:10.115 : Initiated logout request
+20141210-20:11:10.292 : Received logout response
+20141210-20:11:10.292 : Session FIX.4.3:demo417_om->GTXDEMO disconnecting: Received logout response
+20141210-20:13:38.347 : Created session
+20141210-20:13:38.534 : Connecting to 65.51.93.159 on port 2193
+20141210-20:13:38.686 : Connection succeeded
+20141210-20:13:38.731 : Session reset: ResetOnLogon
+20141210-20:13:38.761 : Session reset: ResetSeqNumFlag
+20141210-20:13:38.767 : Initiated logon request
+20141210-20:13:38.994 : Received logon
+20141210-20:22:44.452 : Initiated logout request
+20141210-20:22:44.648 : Received logout response
+20141210-20:22:44.648 : Session FIX.4.3:demo417_om->GTXDEMO disconnecting: Received logout response
+20141210-20:31:29.163 : Created session
+20141210-20:31:29.409 : Connecting to 65.51.93.159 on port 2193
+20141210-20:31:29.543 : Connection succeeded
+20141210-20:31:29.600 : Session reset: ResetOnLogon
+20141210-20:31:29.634 : Session reset: ResetSeqNumFlag
+20141210-20:31:29.638 : Initiated logon request
+20141210-20:31:29.890 : Received logon
+20141210-20:40:14.105 : Initiated logout request
+20141210-20:40:14.282 : Received logout response
+20141210-20:40:14.282 : Session FIX.4.3:demo417_om->GTXDEMO disconnecting: Received logout response

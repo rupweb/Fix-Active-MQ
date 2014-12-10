@@ -1,0 +1,206 @@
+20141210-14:50:34.854 : Created session
+20141210-14:50:35.037 : Connecting to 127.0.0.1 on port 5001
+20141210-14:50:36.057 : Connection failed: No connection could be made because the target machine actively refused it 127.0.0.1:5001
+20141210-14:50:49.548 : Created session
+20141210-14:50:49.733 : Connecting to 127.0.0.1 on port 5001
+20141210-14:50:50.750 : Connection failed: No connection could be made because the target machine actively refused it 127.0.0.1:5001
+20141210-14:50:57.734 : Connecting to 127.0.0.1 on port 5001
+20141210-14:50:58.736 : Connection failed: No connection could be made because the target machine actively refused it 127.0.0.1:5001
+20141210-14:51:05.734 : Connecting to 127.0.0.1 on port 5001
+20141210-14:51:06.737 : Connection failed: No connection could be made because the target machine actively refused it 127.0.0.1:5001
+20141210-14:51:13.734 : Connecting to 127.0.0.1 on port 5001
+20141210-14:51:14.737 : Connection failed: No connection could be made because the target machine actively refused it 127.0.0.1:5001
+20141210-14:51:21.735 : Connecting to 127.0.0.1 on port 5001
+20141210-14:51:22.743 : Connection failed: No connection could be made because the target machine actively refused it 127.0.0.1:5001
+20141210-14:51:29.735 : Connecting to 127.0.0.1 on port 5001
+20141210-14:51:30.738 : Connection failed: No connection could be made because the target machine actively refused it 127.0.0.1:5001
+20141210-14:51:37.735 : Connecting to 127.0.0.1 on port 5001
+20141210-14:51:38.738 : Connection failed: No connection could be made because the target machine actively refused it 127.0.0.1:5001
+20141210-14:51:45.736 : Connecting to 127.0.0.1 on port 5001
+20141210-14:51:46.738 : Connection failed: No connection could be made because the target machine actively refused it 127.0.0.1:5001
+20141210-14:51:53.737 : Connecting to 127.0.0.1 on port 5001
+20141210-14:51:54.739 : Connection failed: No connection could be made because the target machine actively refused it 127.0.0.1:5001
+20141210-14:52:01.737 : Connecting to 127.0.0.1 on port 5001
+20141210-14:52:02.739 : Connection failed: No connection could be made because the target machine actively refused it 127.0.0.1:5001
+20141210-14:52:09.738 : Connecting to 127.0.0.1 on port 5001
+20141210-14:52:10.740 : Connection failed: No connection could be made because the target machine actively refused it 127.0.0.1:5001
+20141210-14:52:17.738 : Connecting to 127.0.0.1 on port 5001
+20141210-14:52:18.741 : Connection failed: No connection could be made because the target machine actively refused it 127.0.0.1:5001
+20141210-14:52:25.738 : Connecting to 127.0.0.1 on port 5001
+20141210-14:52:26.741 : Connection failed: No connection could be made because the target machine actively refused it 127.0.0.1:5001
+20141210-14:52:33.738 : Connecting to 127.0.0.1 on port 5001
+20141210-14:52:34.741 : Connection failed: No connection could be made because the target machine actively refused it 127.0.0.1:5001
+20141210-14:52:41.739 : Connecting to 127.0.0.1 on port 5001
+20141210-14:52:42.742 : Connection failed: No connection could be made because the target machine actively refused it 127.0.0.1:5001
+20141210-14:52:49.740 : Connecting to 127.0.0.1 on port 5001
+20141210-14:52:50.742 : Connection failed: No connection could be made because the target machine actively refused it 127.0.0.1:5001
+20141210-14:53:47.284 : Created session
+20141210-14:53:47.469 : Connecting to 127.0.0.1 on port 5001
+20141210-14:53:47.479 : Connection succeeded
+20141210-14:53:47.558 : Session reset: ResetOnLogon
+20141210-14:53:47.568 : Session reset: ResetSeqNumFlag
+20141210-14:53:47.611 : Initiated logon request
+20141210-14:53:47.863 : Received logon
+20141210-14:53:56.867 : Initiated logout request
+20141210-14:53:56.871 : Received logout response
+20141210-14:53:56.872 : Session FIX.4.3:CLIENT1->EXECUTOR disconnecting: Received logout response
+20141210-15:03:04.150 : Created session
+20141210-15:03:04.334 : Connecting to 127.0.0.1 on port 5001
+20141210-15:03:04.345 : Connection succeeded
+20141210-15:03:04.410 : Session reset: ResetOnLogon
+20141210-15:03:04.422 : Session reset: ResetSeqNumFlag
+20141210-15:03:04.459 : Initiated logon request
+20141210-15:03:04.546 : Received logon
+20141210-15:03:07.549 : Initiated logout request
+20141210-15:03:07.551 : Received logout response
+20141210-15:03:07.552 : Session FIX.4.3:CLIENT1->EXECUTOR disconnecting: Received logout response
+20141210-15:05:51.732 : Created session
+20141210-15:05:51.917 : Connecting to 127.0.0.1 on port 5001
+20141210-15:05:51.927 : Connection succeeded
+20141210-15:05:52.007 : Session reset: ResetOnLogon
+20141210-15:05:52.043 : Session reset: ResetSeqNumFlag
+20141210-15:05:52.048 : Initiated logon request
+20141210-15:05:52.136 : Received logon
+20141210-15:06:10.140 : Initiated logout request
+20141210-15:06:10.143 : Received logout response
+20141210-15:06:10.144 : Session FIX.4.3:CLIENT1->EXECUTOR disconnecting: Received logout response
+20141210-15:08:40.967 : Created session
+20141210-15:08:41.149 : Connecting to 127.0.0.1 on port 5001
+20141210-15:08:41.160 : Connection succeeded
+20141210-15:08:41.256 : Session reset: ResetOnLogon
+20141210-15:08:41.302 : Session reset: ResetSeqNumFlag
+20141210-15:08:41.307 : Initiated logon request
+20141210-15:08:41.394 : Received logon
+20141210-15:08:51.398 : Initiated logout request
+20141210-15:08:51.401 : Received logout response
+20141210-15:08:51.401 : Session FIX.4.3:CLIENT1->EXECUTOR disconnecting: Received logout response
+20141210-15:09:07.519 : Created session
+20141210-15:09:07.727 : Connecting to 127.0.0.1 on port 5001
+20141210-15:09:07.738 : Connection succeeded
+20141210-15:09:07.794 : Session reset: ResetOnLogon
+20141210-15:09:07.824 : Session reset: ResetSeqNumFlag
+20141210-15:09:07.829 : Initiated logon request
+20141210-15:09:07.911 : Received logon
+20141210-15:09:11.914 : Initiated logout request
+20141210-15:09:11.917 : Received logout response
+20141210-15:09:11.918 : Session FIX.4.3:CLIENT1->EXECUTOR disconnecting: Received logout response
+20141210-15:12:31.899 : Created session
+20141210-15:12:32.084 : Connecting to 127.0.0.1 on port 5001
+20141210-15:12:32.095 : Connection succeeded
+20141210-15:12:32.174 : Session reset: ResetOnLogon
+20141210-15:12:32.210 : Session reset: ResetSeqNumFlag
+20141210-15:12:32.214 : Initiated logon request
+20141210-15:12:32.304 : Received logon
+20141210-15:12:40.307 : Initiated logout request
+20141210-15:12:40.310 : Received logout response
+20141210-15:12:40.310 : Session FIX.4.3:CLIENT1->EXECUTOR disconnecting: Received logout response
+20141210-15:21:53.377 : Created session
+20141210-15:21:53.562 : Connecting to 127.0.0.1 on port 5001
+20141210-15:21:53.572 : Connection succeeded
+20141210-15:21:53.665 : Session reset: ResetOnLogon
+20141210-15:21:53.707 : Session reset: ResetSeqNumFlag
+20141210-15:21:53.713 : Initiated logon request
+20141210-15:21:53.800 : Received logon
+20141210-15:22:07.803 : Initiated logout request
+20141210-15:22:07.807 : Received logout response
+20141210-15:22:07.807 : Session FIX.4.3:CLIENT1->EXECUTOR disconnecting: Received logout response
+20141210-15:22:48.266 : Created session
+20141210-15:22:48.450 : Connecting to 127.0.0.1 on port 5001
+20141210-15:22:48.461 : Connection succeeded
+20141210-15:22:48.562 : Session reset: ResetOnLogon
+20141210-15:22:48.608 : Session reset: ResetSeqNumFlag
+20141210-15:22:48.613 : Initiated logon request
+20141210-15:22:48.699 : Received logon
+20141210-15:23:05.703 : Initiated logout request
+20141210-15:23:05.708 : Received logout response
+20141210-15:23:05.708 : Session FIX.4.3:CLIENT1->EXECUTOR disconnecting: Received logout response
+20141210-15:27:37.463 : Created session
+20141210-15:27:37.648 : Connecting to 127.0.0.1 on port 5001
+20141210-15:27:37.659 : Connection succeeded
+20141210-15:27:37.717 : Session reset: ResetOnLogon
+20141210-15:27:37.747 : Session reset: ResetSeqNumFlag
+20141210-15:27:37.752 : Initiated logon request
+20141210-15:27:37.835 : Received logon
+20141210-15:27:48.840 : Initiated logout request
+20141210-15:27:48.843 : Received logout response
+20141210-15:27:48.844 : Session FIX.4.3:CLIENT1->EXECUTOR disconnecting: Received logout response
+20141210-16:21:28.043 : Created session
+20141210-16:21:28.228 : Connecting to 127.0.0.1 on port 5001
+20141210-16:21:28.239 : Connection succeeded
+20141210-16:21:28.299 : Session reset: ResetOnLogon
+20141210-16:21:28.328 : Session reset: ResetSeqNumFlag
+20141210-16:21:28.332 : Initiated logon request
+20141210-16:21:28.416 : Received logon
+20141210-16:21:50.421 : Initiated logout request
+20141210-16:21:50.425 : Received logout response
+20141210-16:21:50.426 : Session FIX.4.3:CLIENT1->EXECUTOR disconnecting: Received logout response
+20141210-16:46:46.637 : Created session
+20141210-16:46:46.821 : Connecting to 127.0.0.1 on port 5001
+20141210-16:46:46.831 : Connection succeeded
+20141210-16:46:46.925 : Session reset: ResetOnLogon
+20141210-16:46:46.960 : Session reset: ResetSeqNumFlag
+20141210-16:46:46.965 : Initiated logon request
+20141210-16:46:47.050 : Received logon
+20141210-16:47:02.054 : Initiated logout request
+20141210-16:47:02.058 : Received logout response
+20141210-16:47:02.059 : Session FIX.4.3:CLIENT1->EXECUTOR disconnecting: Received logout response
+20141210-16:47:25.798 : Created session
+20141210-16:47:25.985 : Connecting to 127.0.0.1 on port 5001
+20141210-16:47:25.995 : Connection succeeded
+20141210-16:47:26.087 : Session reset: ResetOnLogon
+20141210-16:47:26.128 : Session reset: ResetSeqNumFlag
+20141210-16:47:26.133 : Initiated logon request
+20141210-16:47:26.220 : Received logon
+20141210-16:47:40.225 : Initiated logout request
+20141210-16:47:40.227 : Received logout response
+20141210-16:47:40.227 : Session FIX.4.3:CLIENT1->EXECUTOR disconnecting: Received logout response
+20141210-16:49:36.320 : Created session
+20141210-16:49:36.503 : Connecting to 127.0.0.1 on port 5001
+20141210-16:49:36.514 : Connection succeeded
+20141210-16:49:36.608 : Session reset: ResetOnLogon
+20141210-16:49:36.655 : Session reset: ResetSeqNumFlag
+20141210-16:49:36.660 : Initiated logon request
+20141210-16:49:36.752 : Received logon
+20141210-16:49:43.755 : Initiated logout request
+20141210-16:49:43.758 : Received logout response
+20141210-16:49:43.758 : Session FIX.4.3:CLIENT1->EXECUTOR disconnecting: Received logout response
+20141210-17:03:40.746 : Created session
+20141210-17:03:40.930 : Connecting to 127.0.0.1 on port 5001
+20141210-17:03:40.940 : Connection succeeded
+20141210-17:03:41.034 : Session reset: ResetOnLogon
+20141210-17:03:41.075 : Session reset: ResetSeqNumFlag
+20141210-17:03:41.080 : Initiated logon request
+20141210-17:03:41.168 : Received logon
+20141210-17:16:38.404 : Initiated logout request
+20141210-17:16:38.406 : Received logout response
+20141210-17:16:38.406 : Session FIX.4.3:CLIENT1->EXECUTOR disconnecting: Received logout response
+20141210-17:31:39.624 : Created session
+20141210-17:31:39.808 : Connecting to 127.0.0.1 on port 5001
+20141210-17:31:39.819 : Connection succeeded
+20141210-17:31:39.914 : Session reset: ResetOnLogon
+20141210-17:31:39.959 : Session reset: ResetSeqNumFlag
+20141210-17:31:39.964 : Initiated logon request
+20141210-17:31:40.051 : Received logon
+20141210-17:32:09.093 : Initiated logout request
+20141210-17:32:09.095 : Received logout response
+20141210-17:32:09.096 : Session FIX.4.3:CLIENT1->EXECUTOR disconnecting: Received logout response
+20141210-17:50:32.106 : Created session
+20141210-17:50:32.289 : Connecting to 127.0.0.1 on port 5001
+20141210-17:50:32.300 : Connection succeeded
+20141210-17:50:32.359 : Session reset: ResetOnLogon
+20141210-17:50:32.391 : Session reset: ResetSeqNumFlag
+20141210-17:50:32.395 : Initiated logon request
+20141210-17:50:32.479 : Received logon
+20141210-17:51:01.190 : Initiated logout request
+20141210-17:51:01.192 : Received logout response
+20141210-17:51:01.193 : Session FIX.4.3:CLIENT1->EXECUTOR disconnecting: Received logout response
+20141210-17:51:11.568 : Created session
+20141210-17:51:11.751 : Connecting to 127.0.0.1 on port 5001
+20141210-17:51:11.761 : Connection succeeded
+20141210-17:51:11.840 : Session reset: ResetOnLogon
+20141210-17:51:11.882 : Session reset: ResetSeqNumFlag
+20141210-17:51:11.888 : Initiated logon request
+20141210-17:51:11.979 : Received logon
+20141210-17:51:48.943 : Initiated logout request
+20141210-17:51:48.945 : Received logout response
+20141210-17:51:48.946 : Session FIX.4.3:CLIENT1->EXECUTOR disconnecting: Received logout response

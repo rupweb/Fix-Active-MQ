@@ -1,0 +1,316 @@
+20141210-17:36:37.754 : Created session
+20141210-17:36:38.024 : Connecting to 65.51.93.159 on port 2193
+20141210-17:36:38.171 : Connection succeeded
+20141210-17:36:38.256 : Session reset: ResetOnLogon
+20141210-17:36:38.294 : Session reset: ResetSeqNumFlag
+20141210-17:36:38.299 : Initiated logon request
+20141210-17:36:38.546 : Received logon
+20141210-17:36:46.150 : Message 2 Rejected: Tag not defined for this message type (Field=64)
+20141210-17:37:15.151 : Sent test request TEST
+20141210-17:37:37.375 : Initiated logout request
+20141210-17:37:37.563 : Received logout response
+20141210-17:37:37.565 : Session FIX.4.3:demo417_md->GTXDEMO disconnecting: Received logout response
+20141210-17:52:02.258 : Created session
+20141210-17:52:02.510 : Connecting to 65.51.93.159 on port 2193
+20141210-17:52:02.634 : Connection succeeded
+20141210-17:52:02.722 : Session reset: ResetOnLogon
+20141210-17:52:02.759 : Session reset: ResetSeqNumFlag
+20141210-17:52:02.764 : Initiated logon request
+20141210-17:52:02.971 : Received logon
+20141210-17:52:08.187 : Unsupported message type: Exception of type 'QuickFix.UnsupportedMessageType' was thrown.
+20141210-17:52:08.189 : Reject sent for Message: 2 Reason:Unsupported Message Type
+20141210-17:52:21.190 : Initiated logout request
+20141210-17:52:21.355 : Received logout response
+20141210-17:52:21.356 : Session FIX.4.3:demo417_md->GTXDEMO disconnecting: Received logout response
+20141210-17:57:16.121 : Created session
+20141210-17:57:16.348 : Connecting to 65.51.93.159 on port 2193
+20141210-17:57:16.483 : Connection succeeded
+20141210-17:57:16.568 : Session reset: ResetOnLogon
+20141210-17:57:16.606 : Session reset: ResetSeqNumFlag
+20141210-17:57:16.613 : Initiated logon request
+20141210-17:57:16.838 : Received logon
+20141210-17:57:21.838 : Message 2 Rejected: Tag not defined for this message type (Field=64)
+20141210-17:58:17.941 : Initiated logout request
+20141210-17:58:18.116 : Received logout response
+20141210-17:58:18.116 : Session FIX.4.3:demo417_md->GTXDEMO disconnecting: Received logout response
+20141210-17:58:37.173 : Created session
+20141210-17:58:37.388 : Connecting to 65.51.93.159 on port 2193
+20141210-17:58:37.525 : Connection succeeded
+20141210-17:58:37.613 : Session reset: ResetOnLogon
+20141210-17:58:37.655 : Session reset: ResetSeqNumFlag
+20141210-17:58:37.660 : Initiated logon request
+20141210-17:58:37.885 : Received logon
+20141210-17:58:42.513 : Unsupported message type: Exception of type 'QuickFix.UnsupportedMessageType' was thrown.
+20141210-17:58:42.515 : Reject sent for Message: 2 Reason:Unsupported Message Type
+20141210-17:59:24.647 : Initiated logout request
+20141210-17:59:24.825 : Received logout response
+20141210-17:59:24.825 : Session FIX.4.3:demo417_md->GTXDEMO disconnecting: Received logout response
+20141210-18:02:03.613 : Created session
+20141210-18:02:03.868 : Connecting to 65.51.93.159 on port 2193
+20141210-18:02:04.003 : Connection succeeded
+20141210-18:02:04.091 : Session reset: ResetOnLogon
+20141210-18:02:04.130 : Session reset: ResetSeqNumFlag
+20141210-18:02:04.134 : Initiated logon request
+20141210-18:02:04.353 : Received logon
+20141210-18:02:08.812 : Unsupported message type: Exception of type 'QuickFix.UnsupportedMessageType' was thrown.
+20141210-18:02:08.814 : Reject sent for Message: 2 Reason:Unsupported Message Type
+20141210-18:04:29.950 : Initiated logout request
+20141210-18:04:30.127 : Received logout response
+20141210-18:04:30.127 : Session FIX.4.3:demo417_md->GTXDEMO disconnecting: Received logout response
+20141210-18:09:33.949 : Created session
+20141210-18:09:34.138 : Connecting to 65.51.93.159 on port 2193
+20141210-18:09:34.286 : Connection succeeded
+20141210-18:09:34.369 : Session reset: ResetOnLogon
+20141210-18:09:34.407 : Session reset: ResetSeqNumFlag
+20141210-18:09:34.411 : Initiated logon request
+20141210-18:09:34.641 : Received logon
+20141210-18:09:39.777 : Unsupported message type: Exception of type 'QuickFix.UnsupportedMessageType' was thrown.
+20141210-18:09:39.779 : Reject sent for Message: 2 Reason:Unsupported Message Type
+20141210-18:10:14.922 : Initiated logout request
+20141210-18:10:15.112 : Received logout response
+20141210-18:10:15.112 : Session FIX.4.3:demo417_md->GTXDEMO disconnecting: Received logout response
+20141210-18:11:21.695 : Created session
+20141210-18:11:21.886 : Connecting to 65.51.93.159 on port 2193
+20141210-18:11:22.021 : Connection succeeded
+20141210-18:11:22.108 : Session reset: ResetOnLogon
+20141210-18:11:22.147 : Session reset: ResetSeqNumFlag
+20141210-18:11:22.151 : Initiated logon request
+20141210-18:11:22.368 : Received logon
+20141210-18:11:27.480 : Message 2 Rejected: Tag not defined for this message type (Field=64)
+20141210-18:11:38.483 : Initiated logout request
+20141210-18:11:38.658 : Received logout response
+20141210-18:11:38.661 : Session FIX.4.3:demo417_md->GTXDEMO disconnecting: Received logout response
+20141210-18:12:21.424 : Created session
+20141210-18:12:21.672 : Connecting to 65.51.93.159 on port 2193
+20141210-18:12:21.807 : Connection succeeded
+20141210-18:12:21.896 : Session reset: ResetOnLogon
+20141210-18:12:21.936 : Session reset: ResetSeqNumFlag
+20141210-18:12:21.941 : Initiated logon request
+20141210-18:12:22.158 : Received logon
+20141210-18:12:26.426 : Unsupported message type: Exception of type 'QuickFix.UnsupportedMessageType' was thrown.
+20141210-18:12:26.428 : Reject sent for Message: 2 Reason:Unsupported Message Type
+20141210-18:13:06.197 : Initiated logout request
+20141210-18:13:06.375 : Received logout response
+20141210-18:13:06.375 : Session FIX.4.3:demo417_md->GTXDEMO disconnecting: Received logout response
+20141210-18:22:15.819 : Created session
+20141210-18:22:16.009 : Connecting to 65.51.93.159 on port 2193
+20141210-18:22:16.154 : Connection succeeded
+20141210-18:22:16.229 : Session reset: ResetOnLogon
+20141210-18:22:16.263 : Session reset: ResetSeqNumFlag
+20141210-18:22:16.267 : Initiated logon request
+20141210-18:22:16.502 : Received logon
+20141210-18:22:21.294 : Unsupported message type: Exception of type 'QuickFix.UnsupportedMessageType' was thrown.
+20141210-18:22:21.295 : Reject sent for Message: 2 Reason:Unsupported Message Type
+20141210-18:22:35.594 : Initiated logout request
+20141210-18:22:35.781 : Received logout response
+20141210-18:22:35.782 : Session FIX.4.3:demo417_md->GTXDEMO disconnecting: Received logout response
+20141210-18:23:03.628 : Created session
+20141210-18:23:03.880 : Connecting to 65.51.93.159 on port 2193
+20141210-18:23:03.998 : Connection succeeded
+20141210-18:23:04.085 : Session reset: ResetOnLogon
+20141210-18:23:04.125 : Session reset: ResetSeqNumFlag
+20141210-18:23:04.130 : Initiated logon request
+20141210-18:23:04.329 : Received logon
+20141210-18:23:31.708 : Unsupported message type: Exception of type 'QuickFix.UnsupportedMessageType' was thrown.
+20141210-18:23:31.710 : Reject sent for Message: 2 Reason:Unsupported Message Type
+20141210-18:23:55.712 : Initiated logout request
+20141210-18:23:55.872 : Received logout response
+20141210-18:23:55.872 : Session FIX.4.3:demo417_md->GTXDEMO disconnecting: Received logout response
+20141210-18:24:36.195 : Created session
+20141210-18:24:36.387 : Connecting to 65.51.93.159 on port 2193
+20141210-18:24:36.507 : Connection succeeded
+20141210-18:24:36.595 : Session reset: ResetOnLogon
+20141210-18:24:36.633 : Session reset: ResetSeqNumFlag
+20141210-18:24:36.638 : Initiated logon request
+20141210-18:24:36.846 : Received logon
+20141210-18:24:41.156 : Message 2 Rejected: Tag not defined for this message type (Field=64)
+20141210-18:27:50.856 : Initiated logout request
+20141210-18:27:51.021 : Received logout response
+20141210-18:27:51.021 : Session FIX.4.3:demo417_md->GTXDEMO disconnecting: Received logout response
+20141210-18:30:19.643 : Created session
+20141210-18:30:19.833 : Connecting to 65.51.93.159 on port 2193
+20141210-18:30:19.965 : Connection succeeded
+20141210-18:30:20.051 : Session reset: ResetOnLogon
+20141210-18:30:20.091 : Session reset: ResetSeqNumFlag
+20141210-18:30:20.096 : Initiated logon request
+20141210-18:30:20.315 : Received logon
+20141210-18:30:24.163 : Message 2 Rejected: Tag not defined for this message type (Field=64)
+20141210-18:32:43.185 : Created session
+20141210-18:32:43.377 : Connecting to 65.51.93.159 on port 2193
+20141210-18:32:43.495 : Connection succeeded
+20141210-18:32:43.580 : Session reset: ResetOnLogon
+20141210-18:32:43.617 : Session reset: ResetSeqNumFlag
+20141210-18:32:43.621 : Initiated logon request
+20141210-18:32:43.823 : Received logon
+20141210-18:32:47.957 : Message 2 Rejected: Tag not defined for this message type (Field=64)
+20141210-18:35:30.921 : Initiated logout request
+20141210-18:35:31.083 : Received logout response
+20141210-18:35:31.084 : Session FIX.4.3:demo417_md->GTXDEMO disconnecting: Received logout response
+20141210-18:45:36.102 : Created session
+20141210-18:45:36.379 : Connecting to 65.51.93.159 on port 2193
+20141210-18:45:36.512 : Connection succeeded
+20141210-18:45:36.599 : Session reset: ResetOnLogon
+20141210-18:45:36.637 : Session reset: ResetSeqNumFlag
+20141210-18:45:36.642 : Initiated logon request
+20141210-18:45:36.864 : Received logon
+20141210-18:45:41.113 : Message 2 Rejected: Tag not defined for this message type (Field=64)
+20141210-18:46:05.113 : Initiated logout request
+20141210-18:46:05.288 : Received logout response
+20141210-18:46:05.288 : Session FIX.4.3:demo417_md->GTXDEMO disconnecting: Received logout response
+20141210-18:46:54.155 : Created session
+20141210-18:46:54.346 : Connecting to 65.51.93.159 on port 2193
+20141210-18:46:54.491 : Connection succeeded
+20141210-18:46:54.578 : Session reset: ResetOnLogon
+20141210-18:46:54.617 : Session reset: ResetSeqNumFlag
+20141210-18:46:54.622 : Initiated logon request
+20141210-18:46:54.851 : Received logon
+20141210-18:48:30.926 : Initiated logout request
+20141210-18:48:31.115 : Received logout response
+20141210-18:48:31.116 : Session FIX.4.3:demo417_md->GTXDEMO disconnecting: Received logout response
+20141210-18:49:59.773 : Created session
+20141210-18:49:59.963 : Connecting to 65.51.93.159 on port 2193
+20141210-18:50:00.098 : Connection succeeded
+20141210-18:50:00.181 : Session reset: ResetOnLogon
+20141210-18:50:00.219 : Session reset: ResetSeqNumFlag
+20141210-18:50:00.224 : Initiated logon request
+20141210-18:50:00.466 : Received logon
+20141210-18:50:35.693 : Initiated logout request
+20141210-18:50:35.869 : Received logout response
+20141210-18:50:35.870 : Session FIX.4.3:demo417_md->GTXDEMO disconnecting: Received logout response
+20141210-18:50:41.231 : Created session
+20141210-18:50:41.422 : Connecting to 65.51.93.159 on port 2193
+20141210-18:50:41.568 : Connection succeeded
+20141210-18:50:41.653 : Session reset: ResetOnLogon
+20141210-18:50:41.691 : Session reset: ResetSeqNumFlag
+20141210-18:50:41.695 : Initiated logon request
+20141210-18:50:41.925 : Received logon
+20141210-18:50:55.812 : Initiated logout request
+20141210-18:50:56.001 : Received logout response
+20141210-18:50:56.002 : Session FIX.4.3:demo417_md->GTXDEMO disconnecting: Received logout response
+20141210-18:51:33.183 : Created session
+20141210-18:51:33.373 : Connecting to 65.51.93.159 on port 2193
+20141210-18:51:33.508 : Connection succeeded
+20141210-18:51:33.592 : Session reset: ResetOnLogon
+20141210-18:51:33.630 : Session reset: ResetSeqNumFlag
+20141210-18:51:33.635 : Initiated logon request
+20141210-18:51:33.854 : Received logon
+20141210-18:53:25.464 : Initiated logout request
+20141210-18:53:25.646 : Received logout response
+20141210-18:53:25.646 : Session FIX.4.3:demo417_md->GTXDEMO disconnecting: Received logout response
+20141210-19:01:00.058 : Created session
+20141210-19:01:00.311 : Connecting to 65.51.93.159 on port 2193
+20141210-19:01:00.433 : Connection succeeded
+20141210-19:01:00.517 : Session reset: ResetOnLogon
+20141210-19:01:00.555 : Session reset: ResetSeqNumFlag
+20141210-19:01:00.560 : Initiated logon request
+20141210-19:01:00.775 : Received logon
+20141210-19:01:34.907 : Initiated logout request
+20141210-19:01:35.073 : Received logout response
+20141210-19:01:35.073 : Session FIX.4.3:demo417_md->GTXDEMO disconnecting: Received logout response
+20141210-19:03:26.146 : Created session
+20141210-19:03:26.336 : Connecting to 65.51.93.159 on port 2193
+20141210-19:03:26.462 : Connection succeeded
+20141210-19:03:26.546 : Session reset: ResetOnLogon
+20141210-19:03:26.585 : Session reset: ResetSeqNumFlag
+20141210-19:03:26.590 : Initiated logon request
+20141210-19:03:26.797 : Received logon
+20141210-19:09:16.903 : Initiated logout request
+20141210-19:09:17.070 : Received logout response
+20141210-19:09:17.070 : Session FIX.4.3:demo417_md->GTXDEMO disconnecting: Received logout response
+20141210-19:14:34.558 : Created session
+20141210-19:14:34.808 : Connecting to 65.51.93.159 on port 2193
+20141210-19:14:34.930 : Connection succeeded
+20141210-19:14:35.012 : Session reset: ResetOnLogon
+20141210-19:14:35.050 : Session reset: ResetSeqNumFlag
+20141210-19:14:35.056 : Initiated logon request
+20141210-19:14:35.272 : Received logon
+20141210-19:16:47.899 : Initiated logout request
+20141210-19:16:48.063 : Received logout response
+20141210-19:16:48.064 : Session FIX.4.3:demo417_md->GTXDEMO disconnecting: Received logout response
+20141210-19:24:37.543 : Created session
+20141210-19:24:37.812 : Connecting to 65.51.93.159 on port 2193
+20141210-19:24:37.944 : Connection succeeded
+20141210-19:24:38.002 : Session reset: ResetOnLogon
+20141210-19:24:38.032 : Session reset: ResetSeqNumFlag
+20141210-19:24:38.037 : Initiated logon request
+20141210-19:24:38.249 : Received logon
+20141210-19:25:45.258 : Initiated logout request
+20141210-19:25:45.431 : Received logout response
+20141210-19:25:45.433 : Session FIX.4.3:demo417_md->GTXDEMO disconnecting: Received logout response
+20141210-19:31:17.459 : Created session
+20141210-19:31:17.655 : Connecting to 65.51.93.159 on port 2193
+20141210-19:31:17.790 : Connection succeeded
+20141210-19:31:17.854 : Session reset: ResetOnLogon
+20141210-19:31:17.885 : Session reset: ResetSeqNumFlag
+20141210-19:31:17.889 : Initiated logon request
+20141210-19:31:18.110 : Received logon
+20141210-19:35:18.890 : Initiated logout request
+20141210-19:35:19.067 : Received logout response
+20141210-19:35:19.068 : Session FIX.4.3:demo417_md->GTXDEMO disconnecting: Received logout response
+20141210-19:40:21.537 : Created session
+20141210-19:40:21.790 : Connecting to 65.51.93.159 on port 2193
+20141210-19:40:21.925 : Connection succeeded
+20141210-19:40:21.994 : Session reset: ResetOnLogon
+20141210-19:40:22.028 : Session reset: ResetSeqNumFlag
+20141210-19:40:22.033 : Initiated logon request
+20141210-19:40:22.253 : Received logon
+20141210-19:43:12.487 : Session FIX.4.3:demo417_md->GTXDEMO disconnecting: Timed out waiting for heartbeat
+20141210-19:43:22.023 : Connecting to 65.51.93.159 on port 2193
+20141210-19:43:22.163 : Connection succeeded
+20141210-19:43:22.166 : Session reset: ResetOnLogon
+20141210-19:43:22.168 : Session reset: ResetSeqNumFlag
+20141210-19:43:22.168 : Initiated logon request
+20141210-19:43:22.336 : Received logon
+20141210-19:46:24.941 : Initiated logout request
+20141210-19:46:25.132 : Received logout response
+20141210-19:46:25.132 : Session FIX.4.3:demo417_md->GTXDEMO disconnecting: Received logout response
+20141210-19:49:52.966 : Created session
+20141210-19:49:53.160 : Connecting to 65.51.93.159 on port 2193
+20141210-19:49:53.312 : Connection succeeded
+20141210-19:49:53.385 : Session reset: ResetOnLogon
+20141210-19:49:53.416 : Session reset: ResetSeqNumFlag
+20141210-19:49:53.420 : Initiated logon request
+20141210-19:49:53.648 : Received logon
+20141210-19:50:17.639 : Initiated logout request
+20141210-19:50:17.818 : Received logout response
+20141210-19:50:17.819 : Session FIX.4.3:demo417_md->GTXDEMO disconnecting: Received logout response
+20141210-19:50:43.488 : Created session
+20141210-19:50:43.680 : Connecting to 65.51.93.159 on port 2193
+20141210-19:50:43.803 : Connection succeeded
+20141210-19:50:43.893 : Session reset: ResetOnLogon
+20141210-19:50:43.935 : Session reset: ResetSeqNumFlag
+20141210-19:50:43.935 : Initiated logon request
+20141210-19:50:44.145 : Received logon
+20141210-19:51:12.292 : Initiated logout request
+20141210-19:51:12.459 : Received logout response
+20141210-19:51:12.459 : Session FIX.4.3:demo417_md->GTXDEMO disconnecting: Received logout response
+20141210-20:04:56.635 : Created session
+20141210-20:04:56.884 : Connecting to 65.51.93.159 on port 2193
+20141210-20:04:57.031 : Connection succeeded
+20141210-20:04:57.075 : Session reset: ResetOnLogon
+20141210-20:04:57.108 : Session reset: ResetSeqNumFlag
+20141210-20:04:57.112 : Initiated logon request
+20141210-20:04:57.330 : Received logon
+20141210-20:11:10.109 : Initiated logout request
+20141210-20:11:10.300 : Received logout response
+20141210-20:11:10.300 : Session FIX.4.3:demo417_md->GTXDEMO disconnecting: Received logout response
+20141210-20:13:38.340 : Created session
+20141210-20:13:38.532 : Connecting to 65.51.93.159 on port 2193
+20141210-20:13:38.666 : Connection succeeded
+20141210-20:13:38.731 : Session reset: ResetOnLogon
+20141210-20:13:38.761 : Session reset: ResetSeqNumFlag
+20141210-20:13:38.767 : Initiated logon request
+20141210-20:13:38.994 : Received logon
+20141210-20:22:44.092 : Initiated logout request
+20141210-20:22:44.270 : Received logout response
+20141210-20:22:44.271 : Session FIX.4.3:demo417_md->GTXDEMO disconnecting: Received logout response
+20141210-20:31:29.156 : Created session
+20141210-20:31:29.407 : Connecting to 65.51.93.159 on port 2193
+20141210-20:31:29.538 : Connection succeeded
+20141210-20:31:29.600 : Session reset: ResetOnLogon
+20141210-20:31:29.634 : Session reset: ResetSeqNumFlag
+20141210-20:31:29.638 : Initiated logon request
+20141210-20:31:29.890 : Received logon
+20141210-20:40:14.098 : Initiated logout request
+20141210-20:40:14.280 : Received logout response
+20141210-20:40:14.280 : Session FIX.4.3:demo417_md->GTXDEMO disconnecting: Received logout response

@@ -1,0 +1,6 @@
+D:\Documents\SharpDevelop Projects\Usrtec\Usrtec\obj\Debug\Usrtec.csprojResolveAssemblyReference.cache
+D:\Documents\SharpDevelop Projects\Usrtec\Usrtec\bin\Debug\Usrtec.exe.config
+D:\Documents\SharpDevelop Projects\Usrtec\Usrtec\bin\Debug\Usrtec.exe
+D:\Documents\SharpDevelop Projects\Usrtec\Usrtec\bin\Debug\Usrtec.pdb
+D:\Documents\SharpDevelop Projects\Usrtec\Usrtec\obj\Debug\Usrtec.exe
+D:\Documents\SharpDevelop Projects\Usrtec\Usrtec\obj\Debug\Usrtec.pdb
