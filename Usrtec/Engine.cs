@@ -19,12 +19,20 @@ namespace Usrtec
 		public Session _market_data_session = null;
 		public Session _trading_session = null;
 		
+		// Set up the activemq layer to publish FIX messages to activeMQ
+		Publisher pub = new Publisher();
+		
 		#region QuickFix.Application Methods
 
         public void FromApp(Message msg, SessionID s)
         {
         	Console.WriteLine("IN:  " + msg.ToString());
-            Crack(msg, s);
+        	
+        	// Publish raw FIX message to activeMQ
+        	pub.Publish(msg.ToString());
+            
+        	// Crack FIX message any way you want to
+        	Crack(msg, s);
         }
 
         public void ToApp(Message msg, SessionID s)
@@ -50,6 +58,7 @@ namespace Usrtec
         { 
         	Console.WriteLine("Called FromAdmin: " + s.ToString());
         	Console.WriteLine("IN: " + msg.ToString());
+        	pub.Publish(msg.ToString());
         }
         public void OnCreate(SessionID s) 
         {

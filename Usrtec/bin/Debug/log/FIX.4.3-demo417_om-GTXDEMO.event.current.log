@@ -93,3 +93,71 @@
 20141210-20:40:14.105 : Initiated logout request
 20141210-20:40:14.282 : Received logout response
 20141210-20:40:14.282 : Session FIX.4.3:demo417_om->GTXDEMO disconnecting: Received logout response
+20141211-10:40:19.113 : Session FIX.4.3:demo417_om->GTXDEMO already disconnected: Resetting...
+20141211-10:40:19.115 : Session reset: New session
+20141211-10:40:19.115 : Created session
+20141211-10:40:19.408 : Connecting to 65.51.93.159 on port 2193
+20141211-10:40:19.527 : Connection succeeded
+20141211-10:40:19.587 : Session reset: ResetOnLogon
+20141211-10:40:19.620 : Session reset: ResetSeqNumFlag
+20141211-10:40:19.626 : Initiated logon request
+20141211-10:40:19.860 : Received logon
+20141211-10:55:30.328 : Initiated logout request
+20141211-10:55:30.494 : Received logout response
+20141211-10:55:30.494 : Session FIX.4.3:demo417_om->GTXDEMO disconnecting: Received logout response
+20141211-11:45:07.125 : Created session
+20141211-11:45:08.044 : Connecting to 65.51.93.159 on port 2193
+20141211-11:45:08.635 : Connection succeeded
+20141211-11:45:08.718 : Session reset: ResetOnLogon
+20141211-11:45:08.762 : Session reset: ResetSeqNumFlag
+20141211-11:45:08.762 : Initiated logon request
+20141211-11:45:09.082 : Received logon
+20141211-12:10:40.310 : Initiated logout request
+20141211-12:10:40.763 : Received logout response
+20141211-12:10:40.763 : Session FIX.4.3:demo417_om->GTXDEMO disconnecting: Received logout response
+20141211-12:11:12.734 : Created session
+20141211-12:11:13.446 : Connecting to 65.51.93.159 on port 2193
+20141211-12:11:14.019 : Connection succeeded
+20141211-12:11:14.115 : Session reset: ResetOnLogon
+20141211-12:11:14.168 : Session reset: ResetSeqNumFlag
+20141211-12:11:14.176 : Initiated logon request
+20141211-12:11:14.825 : Received logon
+20141211-12:39:00.831 : Sending time accuracy problem
+20141211-12:39:00.835 : Message 47 Rejected: 10
+20141211-12:39:00.837 : Session FIX.4.3:demo417_om->GTXDEMO disconnecting: Timed out waiting for heartbeat
+20141211-12:39:04.139 : Connecting to 65.51.93.159 on port 2193
+20141211-12:39:04.734 : Connection succeeded
+20141211-12:39:04.735 : Session reset: ResetOnLogon
+20141211-12:39:04.738 : Session reset: ResetSeqNumFlag
+20141211-12:39:04.738 : Initiated logon request
+20141211-12:39:05.279 : Received logon
+20141211-12:52:11.688 : Session FIX.4.3:demo417_om->GTXDEMO disconnecting: Timed out waiting for heartbeat
+20141211-12:52:14.679 : Connecting to 65.51.93.159 on port 2193
+20141211-12:52:15.271 : Connection succeeded
+20141211-12:52:15.273 : Session reset: ResetOnLogon
+20141211-12:52:15.275 : Session reset: ResetSeqNumFlag
+20141211-12:52:15.275 : Initiated logon request
+20141211-12:52:15.913 : Received logon
+20141211-13:18:40.808 : Sending time accuracy problem
+20141211-13:18:40.808 : Message 9 Rejected: 10
+20141211-13:18:40.812 : Session FIX.4.3:demo417_om->GTXDEMO disconnecting: Timed out waiting for heartbeat
+20141211-17:10:49.424 : Created session
+20141211-17:10:49.524 : Connecting to 65.51.93.159 on port 2193
+20141211-17:10:49.664 : Connection succeeded
+20141211-17:10:49.704 : Session reset: ResetOnLogon
+20141211-17:10:49.734 : Session reset: ResetSeqNumFlag
+20141211-17:10:49.744 : Initiated logon request
+20141211-17:10:49.974 : Received logon
+20141211-17:20:50.149 : Initiated logout request
+20141211-17:20:50.339 : Received logout response
+20141211-17:20:50.339 : Session FIX.4.3:demo417_om->GTXDEMO disconnecting: Received logout response
+20141211-17:52:38.032 : Created session
+20141211-17:52:38.122 : Connecting to 65.51.93.159 on port 2193
+20141211-17:52:38.272 : Connection succeeded
+20141211-17:52:38.312 : Session reset: ResetOnLogon
+20141211-17:52:38.362 : Session reset: ResetSeqNumFlag
+20141211-17:52:38.362 : Initiated logon request
+20141211-17:52:38.582 : Received logon
+20141211-18:02:28.600 : Initiated logout request
+20141211-18:02:28.792 : Received logout response
+20141211-18:02:28.793 : Session FIX.4.3:demo417_om->GTXDEMO disconnecting: Received logout response

@@ -8,6 +8,8 @@
  */
 using System;
 
+using Apache.NMS;
+
 using QuickFix;
 using QuickFix.Fields;
 
@@ -22,6 +24,9 @@ namespace Usrtec
 		{				
 			_market_data_session = Session.LookupSession(s1);
 			_trading_session = Session.LookupSession(s2);
+			
+			// Set up the activemq layer listening to user commands
+			Listener lis = new Listener();
 						
 			Console.WriteLine("");
 			Console.WriteLine("USE:");
@@ -34,7 +39,7 @@ namespace Usrtec
 		    bool x = true;
 		    while (x)
 		    {
-			    string inp = Console.ReadLine();
+		    	string inp = lis.Listen();
 				switch (inp)
 				{
 					case "md":
