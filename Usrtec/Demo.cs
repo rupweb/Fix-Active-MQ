@@ -26,7 +26,8 @@ namespace Usrtec
 			_trading_session = Session.LookupSession(s2);
 			
 			// Set up the activemq layer listening to user commands
-			Listener lis = new Listener();
+			Listener ct_to_fix = new Listener();
+			ct_to_fix.NewTopic("cttofix");
 						
 			Console.WriteLine("");
 			Console.WriteLine("USE:");
@@ -39,7 +40,7 @@ namespace Usrtec
 		    bool x = true;
 		    while (x)
 		    {
-		    	string inp = lis.Listen();
+		    	string inp = ct_to_fix.Listen();
 				switch (inp)
 				{
 					case "md":
@@ -67,6 +68,9 @@ namespace Usrtec
 						break;
 				}
 		    }
+		    
+		    // Shut down activeMQ listener
+		    ct_to_fix.Stop();
 		}
 		
 		public void md()

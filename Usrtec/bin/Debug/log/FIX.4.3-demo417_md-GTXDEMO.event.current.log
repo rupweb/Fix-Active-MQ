@@ -382,3 +382,91 @@
 20141211-18:02:28.915 : Initiated logout request
 20141211-18:02:29.106 : Received logout response
 20141211-18:02:29.106 : Session FIX.4.3:demo417_md->GTXDEMO disconnecting: Received logout response
+20141211-19:45:02.646 : Created session
+20141211-19:45:02.893 : Connecting to 65.51.93.159 on port 2193
+20141211-19:45:03.021 : Connection succeeded
+20141211-19:45:03.091 : Session reset: ResetOnLogon
+20141211-19:45:03.134 : Session reset: ResetSeqNumFlag
+20141211-19:45:03.138 : Initiated logon request
+20141211-19:45:03.362 : Received logon
+20141211-19:47:29.010 : Initiated logout request
+20141211-19:47:29.180 : Received logout response
+20141211-19:47:29.180 : Session FIX.4.3:demo417_md->GTXDEMO disconnecting: Received logout response
+20141211-20:57:44.717 : Created session
+20141211-20:57:44.820 : Connecting to 65.51.93.159 on port 2193
+20141211-20:57:44.950 : Connection succeeded
+20141211-20:57:45.028 : Session reset: ResetOnLogon
+20141211-20:57:45.074 : Session reset: ResetSeqNumFlag
+20141211-20:57:45.078 : Initiated logon request
+20141211-20:57:45.291 : Received logon
+20141211-20:58:39.817 : Initiated logout request
+20141211-20:58:39.998 : Received logout response
+20141211-20:58:39.999 : Session FIX.4.3:demo417_md->GTXDEMO disconnecting: Received logout response
+20141211-21:04:38.696 : Created session
+20141211-21:04:38.708 : Connecting to 65.51.93.159 on port 2193
+20141211-21:04:38.834 : Connection succeeded
+20141211-21:04:38.882 : Session reset: ResetOnLogon
+20141211-21:04:38.923 : Session reset: ResetSeqNumFlag
+20141211-21:04:38.926 : Initiated logon request
+20141211-21:04:39.120 : Received logon
+20141211-21:05:28.056 : Initiated logout request
+20141211-21:05:28.232 : Received logout response
+20141211-21:05:28.233 : Session FIX.4.3:demo417_md->GTXDEMO disconnecting: Received logout response
+20141215-10:22:20.967 : Session FIX.4.3:demo417_md->GTXDEMO already disconnected: Resetting...
+20141215-10:22:20.976 : Session reset: New session
+20141215-10:22:20.977 : Created session
+20141215-10:22:21.504 : Connecting to 65.51.93.159 on port 2193
+20141215-10:22:22.177 : Connection succeeded
+20141215-10:22:22.246 : Session reset: ResetOnLogon
+20141215-10:22:22.294 : Session reset: ResetSeqNumFlag
+20141215-10:22:22.299 : Initiated logon request
+20141215-10:22:25.010 : Received logon
+20141215-10:29:25.760 : Session FIX.4.3:demo417_md->GTXDEMO disconnecting: Apache.NMS.ActiveMQ.ConnectionClosedException: The connection is already closed!
+   at Apache.NMS.ActiveMQ.MessageProducer.Send(IDestination destination, IMessage message, MsgDeliveryMode deliveryMode, MsgPriority priority, TimeSpan timeToLive, Boolean specifiedTimeToLive) in c:\dev\NMS.ActiveMQ\src\main\csharp\MessageProducer.cs:line 260
+   at Apache.NMS.ActiveMQ.MessageProducer.Send(IMessage message) in c:\dev\NMS.ActiveMQ\src\main\csharp\MessageProducer.cs:line 163
+   at Usrtec.Publisher.Publish(String data) in d:\Documents\SharpDevelop Projects\Usrtec\Usrtec\Publisher.cs:line 64
+   at Usrtec.Engine.FromAdmin(Message msg, SessionID s) in d:\Documents\SharpDevelop Projects\Usrtec\Usrtec\Engine.cs:line 70
+   at QuickFix.Session.Verify(Message msg, Boolean checkTooHigh, Boolean checkTooLow)
+   at QuickFix.Session.Verify(Message message)
+   at QuickFix.Session.NextHeartbeat(Message heartbeat)
+   at QuickFix.Session.Next(Message message)
+   at QuickFix.Session.Next(String msgStr)
+   at QuickFix.SocketInitiatorThread.ProcessStream()
+   at QuickFix.SocketInitiatorThread.Read()
+20141215-10:29:31.532 : Connecting to 65.51.93.159 on port 2193
+20141215-10:29:31.648 : Connection succeeded
+20141215-10:29:31.653 : Session reset: ResetOnLogon
+20141215-10:30:46.665 : Created session
+20141215-10:30:46.677 : Connecting to 65.51.93.159 on port 2193
+20141215-10:30:47.133 : Connection succeeded
+20141215-10:30:47.209 : Session reset: ResetOnLogon
+20141215-10:30:47.269 : Session reset: ResetSeqNumFlag
+20141215-10:30:47.273 : Initiated logon request
+20141215-10:30:47.960 : Received logon
+20141215-12:04:56.326 : Created session
+20141215-12:04:57.062 : Connecting to 65.51.93.159 on port 2193
+20141215-12:04:57.352 : Connection succeeded
+20141215-12:04:57.424 : Session reset: ResetOnLogon
+20141215-12:04:57.485 : Session reset: ResetSeqNumFlag
+20141215-12:04:57.492 : Initiated logon request
+20141215-12:04:57.989 : Received logon
+20141215-14:20:49.625 : Created session
+20141215-14:20:49.718 : Connecting to 65.51.93.159 on port 2193
+20141215-14:20:49.850 : Connection succeeded
+20141215-14:20:49.911 : Session reset: ResetOnLogon
+20141215-14:20:49.953 : Session reset: ResetSeqNumFlag
+20141215-14:20:49.956 : Initiated logon request
+20141215-14:20:50.181 : Received logon
+20141215-15:06:43.117 : Initiated logout request
+20141215-15:06:43.298 : Received logout response
+20141215-15:06:43.298 : Session FIX.4.3:demo417_md->GTXDEMO disconnecting: Received logout response
+20141215-15:06:55.956 : Created session
+20141215-15:06:56.033 : Connecting to 65.51.93.159 on port 2193
+20141215-15:06:56.153 : Connection succeeded
+20141215-15:06:56.208 : Session reset: ResetOnLogon
+20141215-15:06:56.257 : Session reset: ResetSeqNumFlag
+20141215-15:06:56.261 : Initiated logon request
+20141215-15:06:56.474 : Received logon
+20141215-15:22:22.111 : Initiated logout request
+20141215-15:22:22.277 : Received logout response
+20141215-15:22:22.278 : Session FIX.4.3:demo417_md->GTXDEMO disconnecting: Received logout response

@@ -20,7 +20,31 @@ namespace Usrtec
 		public Session _trading_session = null;
 		
 		// Set up the activemq layer to publish FIX messages to activeMQ
-		Publisher pub = new Publisher();
+		Publisher fixin = new Publisher();
+		Publisher fixout = new Publisher();
+		Publisher price = new Publisher();
+		Publisher trade = new Publisher();		
+		
+		// Constructor sets up activeMQ topics
+		public Engine()
+		{
+			// FIX messages from providers are published on these topics
+			// General message dump
+			fixin.NewTopic("fixin");
+			fixout.NewTopic("fixout");
+			// Specific topics
+			price.NewTopic("fixtypeS");
+			trade.NewTopic("fixtype8");
+		}
+		
+		// Destructor shuts down activeMQ topics
+		~Engine()
+		{
+			fixin.Stop();
+			fixout.Stop();
+			price.Stop();
+			trade.Stop();
+		}
 		
 		#region QuickFix.Application Methods
 
@@ -28,8 +52,10 @@ namespace Usrtec
         {
         	Console.WriteLine("IN:  " + msg.ToString());
         	
-        	// Publish raw FIX message to activeMQ
-        	pub.Publish(msg.ToString());
+        	// Publish all raw FIX messages to message dump topic
+        	// Message dump includes heartbeats, logon messages, admin messages etc
+        	// Specific message types have to be cracked first (see line after next)
+        	fixout.Publish(msg.ToString());
             
         	// Crack FIX message any way you want to
         	Crack(msg, s);
@@ -37,7 +63,9 @@ namespace Usrtec
 
         public void ToApp(Message msg, SessionID s)
         {
-            // Don't send out unsupported message type messages to providers
+            fixin.Publish(msg.ToString());
+        	
+        	// Don't send out unsupported message type messages to providers
             if (msg.Header.GetField(QuickFix.Fields.Tags.MsgType) == MsgType.BUSINESS_MESSAGE_REJECT)
             {
             	Console.WriteLine("ERRO ToApp BMR: " + msg.ToString());
@@ -58,7 +86,7 @@ namespace Usrtec
         { 
         	Console.WriteLine("Called FromAdmin: " + s.ToString());
         	Console.WriteLine("IN: " + msg.ToString());
-        	pub.Publish(msg.ToString());
+        	fixin.Publish(msg.ToString());
         }
         public void OnCreate(SessionID s) 
         {
@@ -66,7 +94,7 @@ namespace Usrtec
         }
         public void OnLogout(SessionID s)        
         {
-			Console.WriteLine("Called OnLogout: " + s.ToString());         
+			Console.WriteLine("Called OnLogout: " + s.ToString());		
         }
         public void OnLogon(SessionID s)
         {
@@ -110,6 +138,7 @@ namespace Usrtec
         		}        		     		
         	}
 
+        	fixout.Publish(msg.ToString());
         	Console.WriteLine("OUT: " + msg.ToString());        	
         }
         #endregion
@@ -118,6 +147,8 @@ namespace Usrtec
 		public void OnMessage(QuickFix.FIX43.MarketDataSnapshotFullRefresh msg, SessionID s) 
 		{
 			Console.WriteLine("MarketDataSnapshot from: " + s.ToString());
+			// Publish price snapshot message to fixtypeS
+			price.Publish(msg.ToString());
 		}
 		
 		public void OnMessage(QuickFix.FIX43.MarketDataIncrementalRefresh msg, SessionID s) 
@@ -142,7 +173,9 @@ namespace Usrtec
         
         public void OnMessage(QuickFix.FIX43.ExecutionReport msg, SessionID s) 
         {
-			Console.WriteLine("ExecutionReport from: " + s.ToString());  		
+			Console.WriteLine("ExecutionReport from: " + s.ToString());
+			// Publish all execution reports to fixtype8
+			trade.Publish(msg.ToString());
         }
 
         public void OnMessage(QuickFix.FIX43.News msg, SessionID s)

@@ -28,14 +28,25 @@ namespace Usrtec
 	        String password = env("ACTIVEMQ_PASSWORD", "password");
 	        String host = env("ACTIVEMQ_HOST", "localhost");
 	        int port = Int32.Parse(env("ACTIVEMQ_PORT", "61616"));
-			String destination = "fixout";
 	
 			String brokerUri = "activemq:tcp://" + host + ":" + port;
 	        NMSConnectionFactory factory = new NMSConnectionFactory(brokerUri);
 	
-	        connection = factory.CreateConnection(user, password);
-	        connection.Start();
-	        session = connection.CreateSession(AcknowledgementMode.AutoAcknowledge);
+	        try
+	        {
+	        	connection = factory.CreateConnection(user, password);
+	        	connection.Start();
+	        }
+            catch (System.Exception e)
+            {
+                Console.WriteLine("==ACTIVE MQ DOWN==");
+                Console.WriteLine(e.ToString());
+            }	        
+		}
+		
+		public void NewTopic (string destination)
+		{
+			session = connection.CreateSession(AcknowledgementMode.AutoAcknowledge);
 	        IDestination dest = session.GetTopic(destination);
 	        producer = session.CreateProducer(dest);
 	        producer.DeliveryMode = MsgDeliveryMode.NonPersistent;
@@ -45,7 +56,6 @@ namespace Usrtec
 		{
 			producer.Send(session.CreateTextMessage("SHUTDOWN"));
 	        connection.Close();
-	        Console.ReadLine();
 		}
 		
 		public void Publish(String data)

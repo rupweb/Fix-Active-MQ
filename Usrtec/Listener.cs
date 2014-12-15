@@ -30,24 +30,33 @@ namespace Usrtec
 	        String password = env("ACTIVEMQ_PASSWORD", "password");
 	        String host = env("ACTIVEMQ_HOST", "localhost");
 	        int port = Int32.Parse(env("ACTIVEMQ_PORT", "61616"));
-	        String destination = "fixin";
 	
 			String brokerUri = "activemq:tcp://" + host + ":" + port + "?transport.useLogging=true";
 	        NMSConnectionFactory factory = new NMSConnectionFactory(brokerUri);
 	
-	        connection = factory.CreateConnection(user, password);
-	        connection.Start();
+	        try
+	        {
+				connection = factory.CreateConnection(user, password);
+				connection.Start();	
+	        }
+            catch (System.Exception e)
+            {
+                Console.WriteLine("==ACTIVE MQ DOWN==");
+                Console.WriteLine(e.ToString());
+            }
+		}
+		
+		public void NewTopic (string destination)
+		{
 	        session = connection.CreateSession(AcknowledgementMode.AutoAcknowledge);
 	        IDestination dest = session.GetTopic(destination);
-	
 	        consumer = session.CreateConsumer(dest);
-		}
+		}		
 	        
 		public void Stop()
 		{
 			Console.WriteLine("Shutting down Listener.");			
 			connection.Close();
-			Console.ReadLine();
 	    }
 		
 		public string Listen()
